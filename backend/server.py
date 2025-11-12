@@ -2,9 +2,9 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
 from datetime import date
-import db_helper
+from . import db_helper
 
-app = fastAPI()
+app = FastAPI()
 
 class Expense(BaseModel):
     category: str
