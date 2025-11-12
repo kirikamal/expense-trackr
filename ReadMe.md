@@ -1,6 +1,6 @@
 # Expense Trackr
 
-This projectis an Expense Tracking Application with a FastAPI backend and a Streamlit frontend.
+This project is an Expense Tracking Application with a FastAPI backend and a Streamlit frontend.
 
 
 ## Project Structure
