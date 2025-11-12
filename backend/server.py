@@ -56,7 +56,7 @@ def get_analytics(date_range: DateRange):
 
     breakdown = {}
     for row in summary:
-        percentage = (row['total']/total)*100 if total > 0 else 0
+        percentage = (row['total']/total)*100 if total != 0 else 0
         breakdown[row['category']] = {
             'total': row['total'],
             'percentage': percentage
