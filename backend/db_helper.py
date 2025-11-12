@@ -48,7 +48,7 @@ def fetch_expense_summary(start_date, end_date):
     logger.info(f"Fetching expense summary from {start_date} to {end_date}")
     with get_db_connection() as cursor:
         query = """
-            SELECT category, SUM(amount) AS total_amount
+            SELECT category, SUM(amount) AS total
             FROM expenses
             WHERE expense_date BETWEEN %s AND %s
             GROUP BY category
