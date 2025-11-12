@@ -1,5 +1,7 @@
 import streamlit as st
 from expense_save_tab import save_expenses_tab
+from analytics_ui import analytics_tab
+from analytics_by_months import analytics_months_tab
 
 
 st.title("Expense Trackr")
@@ -10,7 +12,7 @@ with tab1:
     save_expenses_tab()
 
 with tab2:
-    st.write("Analytics By Category - Coming Soon!")
+    analytics_tab()
 
 with tab3:
-    st.write("Analytics By Months - Coming Soon!")
+    analytics_months_tab()
