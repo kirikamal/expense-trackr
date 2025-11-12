@@ -1,6 +1,6 @@
 # Expense Trackr
 
-This project is an Expense Tracking Application with a FastAPI backend and a Streamlit frontend.
+This project is an Expense Tracking Application created with Python FastAPI backend and a Streamlit frontend.
 
 
 ## Project Structure
@@ -9,7 +9,7 @@ This project is an Expense Tracking Application with a FastAPI backend and a Str
 - `tests/`: Contains unit tests for both backend and frontend components.
 
 ### Requirements
-- `requirements.txt/`: Lists all Python dependencies for the project.
+- `requirements.txt`: Lists all Python dependencies for the project.
 
 ## Setup Instructions
 
@@ -36,4 +36,11 @@ This project is an Expense Tracking Application with a FastAPI backend and a Str
 
     ```commandline
     streamlit run frontend/app.py
+    ```
+
+## Running Tests
+To run the tests, use the following command from the root directory:
+
+    ```bash
+    pytest -v
     ```
