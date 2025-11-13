@@ -26,13 +26,19 @@ This project is an Expense Tracking Application created with Python FastAPI back
    pip install -r requirements.txt
    ```
 
-3. **Run backend from root directory**:
+3. **Configure Database**:
+
+   Update the database connection settings in `backend/db_helper.py` with your MySQL credentials.
+   And use the database schema from database/expense_manager_expenses.sql to set up your database.
+
+
+4. **Run backend from root directory**:
 
     ```commandline
     uvicorn backend.server:app --reload
     ```
 
-4. **Run frontend from root directory**:
+5. **Run frontend from root directory**:
 
     ```commandline
     streamlit run frontend/app.py
