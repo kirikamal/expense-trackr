@@ -29,7 +29,7 @@ This project is an Expense Tracking Application created with Python FastAPI back
 3. **Configure Database**:
 
    Update the database connection settings in `backend/db_helper.py` with your MySQL credentials.
-   And use the database schema from database/expense_manager_expenses.sql to set up your database.
+   And use the database schema from `database/expense_manager_expenses.sql` to set up your database.
 
 
 4. **Run backend from root directory**:
