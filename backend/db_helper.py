@@ -11,8 +11,8 @@ def get_db_connection(commit=False):
     """Context manager for database connection."""
     conn = mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='Kiri@1234',
+        user='<YOUR_DB_USER_NAME>',
+        password='<YOUR_DB_PASSWORD>',
         database='expense_manager'
     )
 
