@@ -21,7 +21,10 @@ SET @@SESSION.SQL_LOG_BIN= 0;
 -- GTID state at the beginning of the backup
 --
 
-SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ 'eb2b62ba-bc9f-11f0-919d-6be33048d863:1-12';
+-- SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ 'eb2b62ba-bc9f-11f0-919d-6be33048d863:1-12';
+
+CREATE DATABASE IF NOT EXISTS expense_manager;
+USE expense_manager;
 
 --
 -- Table structure for table `expenses`
